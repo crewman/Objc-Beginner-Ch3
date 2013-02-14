@@ -29,7 +29,7 @@
 		A9F5C0F516CDA97B00E1E025 /* Objc-Chapter3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Objc-Chapter3"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9F5C0F916CDA97B00E1E025 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A9F5C0FC16CDA97B00E1E025 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A9F5C0FF16CDA97B00E1E025 /* Objc-Chapter3-Prefix.pch */ = {isa = PBXFileReference; path = "Objc-Chapter3-Prefix.pch"; sourceTree = "<group>"; };
+		A9F5C0FF16CDA97B00E1E025 /* Objc-Chapter3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Objc-Chapter3-Prefix.pch"; sourceTree = "<group>"; };
 		A9F5C10016CDA97B00E1E025 /* Objc_Chapter3.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Objc_Chapter3.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
