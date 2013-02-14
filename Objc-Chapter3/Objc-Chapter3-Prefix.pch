@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Objc-Chapter3' target in the 'Objc-Chapter3' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
