@@ -48,14 +48,16 @@ int main (int argc, char * argv[])
 {
     @autoreleasepool {
         
-        Fraction *myFraction;
+        // Fraction *myFraction;
+        
+        Fraction *myFraction = [[Fraction alloc] init]; // all in one shorthand way of successive alloc/init code.
         
         // time to create an instance of a Fraction!
         
         // myFraction = [Fraction alloc];
         // myFraction = [myFraction init];
         
-        myFraction = [[Fraction alloc] init]; // the same as the previous two lines, alloc happens first, than init.
+        // myFraction = [[Fraction alloc] init]; // the same as the previous two lines, alloc happens first, than init.
         
         // so init is a INSTANCE method, while alloc is a CLASS method. Doh, note to self, don't do 
         // myFraction = [Fraction alloc]; AND myFraction = [Fraction init]; Dumb Dumb Dumb.
